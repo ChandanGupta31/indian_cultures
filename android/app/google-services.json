@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659192666885",
+    "project_id": "indian-cultures",
+    "storage_bucket": "indian-cultures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659192666885:android:8970837994eea9e151b56c",
+        "android_client_info": {
+          "package_name": "com.king.indian_cultures"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnxpINYWfWlWL1ku7tGRF40U5XLHxLP8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
