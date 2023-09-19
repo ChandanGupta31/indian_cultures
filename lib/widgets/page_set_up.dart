@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Splash extends StatelessWidget {
-  Splash({super.key});
+class PageSetUp extends StatelessWidget {
+  PageSetUp({super.key});
 
   @override
   Widget build(BuildContext context) {
