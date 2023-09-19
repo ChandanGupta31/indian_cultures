@@ -7,13 +7,14 @@ import 'package:indian_cultures/login/login.dart';
 import 'package:indian_cultures/login_otp/login_otp.dart';
 import 'package:indian_cultures/review/review.dart';
 import 'package:indian_cultures/welcome/welcome.dart';
+import 'package:indian_cultures/widgets/page_set_up.dart';
 
 import '../home/home.dart';
 import '../profile/profile.dart';
 
 
 Map<String, WidgetBuilder> routes = {
-  '/': (context) => Home(),
+  '/home': (context) => Home(),
   '/profile': (context) => Profile(),
   '/favorite': (context) => Favorite(),
   '/culture': (context) => Culture(),
@@ -23,4 +24,5 @@ Map<String, WidgetBuilder> routes = {
   '/login_otp': (context) => LoginOTP(),
   '/review': (context) => Review(),
   '/welcome': (context) => Welcome(),
+  '/': (context) => PageSetUp(),
 };
